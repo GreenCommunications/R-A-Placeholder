@@ -1,7 +1,13 @@
+html
+{
+    background-image: linear-gradient(to right, #1CCAD8, #2F97C1);
+}
 .navagation
 {
     display: flex;
     align-items: center;
+
+    padding: 2em;
 }
 
 .navagation-logo
@@ -11,4 +17,35 @@
     margin-left: 2em;
 
     color: white;
+    font-size: 150%;
+}
+.navagation-logo-span
+{
+    font-size: 90%;
+
+    font-family: roboto;
+
+    font-weight: 300;
+
+    color: white;
+
+    margin-left: 1em;
+}
+
+.header
+{
+    font-family: roboto;
+    font-size: 250%;
+    color: white;
+    
+    text-align: center;
+
+    margin-top: 3em;
+}
+.header-sub
+{
+    font-size: 40%;
+    font-weight: 300;
+
+    margin-top: 1em;
 }
