@@ -49,3 +49,36 @@ html
 
     margin-top: 1em;
 }
+
+#linkLeft
+{
+    margin-left: auto;
+}
+a:link
+{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+
+    text-decoration: none;
+
+    transition: all .2s ease-in;
+
+    margin-right: 3em;
+}
+a:visited
+{
+    text-decoration: none;
+
+    color: white;
+}
+a:hover
+{
+    opacity: .7;
+}
+a:active
+{
+    text-decoration: none;
+
+    color: white;
+}
