@@ -23,3 +23,56 @@
     font-weight: 300;
     src: url(../fonts/Roboto-Light.ttf);
 }
+
+a:link
+{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+
+    text-decoration: none;
+
+    transition: all .2s ease-in;
+
+    margin-right: 3em;
+}
+a:visited
+{
+    text-decoration: none;
+
+    color: white;
+}
+a:hover
+{
+    opacity: .7;
+}
+a:active
+{
+    text-decoration: none;
+
+    color: white;
+}
+.input
+{
+    display: block;
+
+    margin: .5em auto;
+
+    color: rgb(3, 27, 78);
+
+    font-weight: 300;
+
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: .5em;
+
+    font-size: 110%;
+
+    transition: all .2s ease-in;
+}
+.input:focus
+{
+    outline: none;
+
+    border-color: #044CC2;
+}
