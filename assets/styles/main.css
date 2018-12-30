@@ -1,0 +1,14 @@
+.navagation
+{
+    display: flex;
+    align-items: center;
+}
+
+.navagation-logo
+{
+    font-family: roboto;
+
+    margin-left: 2em;
+
+    color: white;
+}
