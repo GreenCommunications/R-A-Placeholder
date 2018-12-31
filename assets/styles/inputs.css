@@ -1,0 +1,22 @@
+.input
+{
+    display: block;
+
+    color: rgb(3, 27, 78);
+
+    font-weight: 300;
+
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    padding: .5em;
+
+    font-size: 110%;
+
+    transition: all .2s ease-in;
+}
+.input:focus
+{
+    outline: none;
+
+    border-color: #044CC2;
+}

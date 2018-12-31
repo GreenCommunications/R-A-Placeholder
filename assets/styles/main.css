@@ -108,6 +108,11 @@
     padding-bottom: 1em;
 }
 
+#joininput
+{
+    margin: .5em auto;
+}
+
 .submitButton
 {
     background-color: #044CC2;
