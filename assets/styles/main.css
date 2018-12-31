@@ -137,3 +137,32 @@
 {
     background-color: #031B4E;
 }
+
+.synergy-title
+{
+    color: #031B4E;
+    font-weight: 500;
+    font-family: roboto;
+    font-size: 150%;
+
+    text-align: center;
+
+    margin-top: 1em;
+}
+
+.synergy-contentWrapper
+{
+    display: flex;
+}
+.synergy-paragraph
+{
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 90%;
+
+    flex-grow: 1;
+}
+.synergy-highlights
+{
+    flex-grow: 2;
+}
