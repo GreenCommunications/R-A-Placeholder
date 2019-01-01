@@ -10,8 +10,6 @@
 {
     font-family: roboto;
 
-    margin-left: 2em;
-
     color: white;
     font-size: 150%;
 }
@@ -28,14 +26,24 @@
     margin-left: 1em;
 }
 
+.navagation-image
+{
+    margin-left: 2em;
+
+    height: 1.5em;
+    width: 1.5em;
+
+    margin-right: .7em;
+}
+
 .header
 {
     font-family: roboto;
     color: white;
 
-    margin-top: 1em;
+    margin-top: 5em;
 
-    padding-bottom: 1em;
+    padding-bottom: 5em;
 
     display: flex;
 }
@@ -136,4 +144,143 @@
 .submitButton:hover
 {
     background-color: #031B4E;
+}
+
+.project-title
+{
+    color: #031B4E;
+    font-weight: 500;
+    font-family: roboto;
+    font-size: 150%;
+
+    text-align: center;
+
+    padding-top: 2em;
+}
+
+.project-contentWrapper
+{
+    display: flex;
+
+    padding: 2em 10em 2em 10em;
+
+    align-items: center;
+}
+.project-paragraph
+{
+    font-family: roboto;
+
+    display: inline-flex;
+    flex-grow: 1;
+
+    box-sizing: border-box;
+
+    padding-right: 3em;
+
+    max-width: 50%;
+}
+.project-highlights
+{
+    flex-grow: 10;
+}
+
+.highlights-section
+{
+    display: flex;
+    align-items: center;
+
+    margin-top: 1em;
+
+    font-family: roboto;
+
+    font-size: 90%;
+    font-weight: 300;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    padding: .5em 1em .5em 1em;
+}
+.highlights-section:hover
+{
+    box-shadow: 0 0 10px 1px rgb(200, 200, 200);
+}
+.highlight-clip
+{
+    width: 3em;
+    height: 3em;
+
+    margin-right: 2em;
+}
+.project-highlights
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#fusionSection
+{
+    background-color: rgb(240, 240, 240);
+}
+
+.notice
+{
+    background-color: #031b4e;
+
+    padding: .5em;
+
+    position: fixed;
+
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+.notice-content
+{
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.notice, .notice-content
+{
+    display: flex;
+    align-items: center;
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+.notice-pill
+{
+    background-color: #00d7d2;
+
+    margin-left: auto;
+
+    padding: .2em .5em .2em .5em;
+
+    border-radius: 7px;
+
+    color: white;
+    font-family: roboto;
+    font-size: 90%;
+}
+.notice-message
+{
+    margin-right: auto;
+
+    color: white;
+    font-family: roboto;
+    font-size: 90%;
+    font-weight: 300;
+
+    margin-left: 1em;
+}
+#notice-close
+{
+    cursor: pointer;
 }
