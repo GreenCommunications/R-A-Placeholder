@@ -10,8 +10,6 @@
 {
     font-family: roboto;
 
-    margin-left: 2em;
-
     color: white;
     font-size: 150%;
 }
@@ -28,14 +26,24 @@
     margin-left: 1em;
 }
 
+.navagation-image
+{
+    margin-left: 2em;
+
+    height: 1.5em;
+    width: 1.5em;
+
+    margin-right: .7em;
+}
+
 .header
 {
     font-family: roboto;
     color: white;
 
-    margin-top: 1em;
+    margin-top: 5em;
 
-    padding-bottom: 1em;
+    padding-bottom: 5em;
 
     display: flex;
 }
@@ -138,7 +146,7 @@
     background-color: #031B4E;
 }
 
-.synergy-title
+.project-title
 {
     color: #031B4E;
     font-weight: 500;
@@ -147,22 +155,71 @@
 
     text-align: center;
 
-    margin-top: 1em;
+    padding-top: 2em;
 }
 
-.synergy-contentWrapper
+.project-contentWrapper
 {
     display: flex;
+
+    padding: 2em 10em 2em 10em;
+
+    align-items: center;
 }
-.synergy-paragraph
+.project-paragraph
 {
     font-family: roboto;
-    font-weight: 300;
-    font-size: 90%;
 
+    display: inline-flex;
     flex-grow: 1;
+
+    box-sizing: border-box;
+
+    padding-right: 3em;
+
+    max-width: 50%;
 }
-.synergy-highlights
+.project-highlights
 {
-    flex-grow: 2;
+    flex-grow: 10;
+}
+
+.highlights-section
+{
+    display: flex;
+    align-items: center;
+
+    margin-top: 1em;
+
+    font-family: roboto;
+
+    font-size: 90%;
+    font-weight: 300;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    padding: .5em 1em .5em 1em;
+}
+.highlights-section:hover
+{
+    box-shadow: 0 0 10px 1px rgb(200, 200, 200);
+}
+.highlight-clip
+{
+    width: 3em;
+    height: 3em;
+
+    margin-right: 2em;
+}
+.project-highlights
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#fusionSection
+{
+    background-color: rgb(240, 240, 240);
 }
