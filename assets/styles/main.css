@@ -223,3 +223,61 @@
 {
     background-color: rgb(240, 240, 240);
 }
+
+.notice
+{
+    background-color: #031b4e;
+
+    padding: .5em;
+
+    position: fixed;
+
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+.notice-content
+{
+    width: 90%;
+}
+.notice, .notice-content
+{
+    display: flex;
+    align-items: center;
+}
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+.notice-pill
+{
+    background-color: #00d7d2;
+
+    margin-left: auto;
+
+    padding: .2em .5em .2em .5em;
+
+    border-radius: 7px;
+
+    color: white;
+    font-family: roboto;
+    font-size: 90%;
+}
+.notice-message
+{
+    margin-right: auto;
+
+    color: white;
+    font-family: roboto;
+    font-size: 90%;
+    font-weight: 300;
+
+    margin-left: 1em;
+}
+#notice-close
+{
+    cursor: pointer;
+}
