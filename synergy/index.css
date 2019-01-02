@@ -32,7 +32,7 @@ a
     flex-grow: 1;
 }
 html {
-    background-image: linear-gradient(to bottom right ,#044CC2,#031B4E);
+    background-image: linear-gradient(to bottom right ,rgb(4, 146, 241),rgb(7, 85, 255));
     background-repeat: no-repeat;
 
 
