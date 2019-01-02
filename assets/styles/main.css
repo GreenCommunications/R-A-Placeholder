@@ -287,3 +287,8 @@
 {
     cursor: pointer;
 }
+
+.mobile-body
+{
+    display: none;
+}
