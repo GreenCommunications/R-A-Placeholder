@@ -31,3 +31,14 @@ a
     display: inline-flex;
     flex-grow: 1;
 }
+html {
+    background-image: linear-gradient(to bottom right ,#044CC2,#031B4E);
+    background-repeat: no-repeat;
+
+
+    font-family: roboto;
+  }
+  html,body
+  {
+      height: 100%;
+  }
