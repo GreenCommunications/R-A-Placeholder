@@ -1,6 +1,7 @@
 .title
 {
     text-align: center;
+    font-family: roboto;
 }
 
 html {font: 16px 'Lobster', serif;}
@@ -13,3 +14,20 @@ p {font-size: 1.25em;}
 .link
 
 {text-align: right}
+a
+{
+    display: inline-block;
+}
+
+.nav
+{
+    display: flex; 
+    align-items: center;
+
+    width: 100%;
+}
+.nav a
+{
+    display: inline-flex;
+    flex-grow: 1;
+}
