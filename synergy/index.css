@@ -1,7 +1,8 @@
 .title
 {
-    text-align: center;
+    text-align: left;
     font-family: roboto;
+    font-size: 200%;
 }
 
 html {font: 16px 'Lobster', serif;}
