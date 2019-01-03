@@ -12,7 +12,7 @@
         </script>
         
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Syncronosys</title>
         <link rel="stylesheet" type="text/css" href="assets/styles/common.css">
         <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
@@ -21,25 +21,29 @@
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <script src="assets/scripts/renderer.js"></script>
 
-        <link href="assets/mobile/m-main.css" rel="stylesheet" media="screen and (max-width: 600px)">
+        <link href="assets/mobile/m-main.css" rel="stylesheet" media="screen and (max-width: 1000px)">
     </head>
     <body>
-        <div class="mobile-body">
+        <div class="mobile-body" id="mobile">
             <div class="mobile-nav">
                 <img class="mobile-nav-logo" src="assets/images/logo.png">
-                <div class="mobile-nav-title">Syncronosys</div>
             </div>
             
-            <div class="mobile-heading">
-                Our Appologies,
-            </div>
-            <div class="mobile-paragraph">
-                Our site is currently not optimized for mobile; This process will begin after our desktop site is complete. To see our progress,
-                open this page on your desktop.
+            <div class="mobile-content">
+                <div class="mobile-heading">
+                    Our Appologies,
+                </div>
+                <div class="mobile-paragraph">
+                    Our site is currently not optimized for mobile; This process will begin after our desktop site is complete. To see our progress,
+                    open this page on your desktop.
+                </div>
+                <div class="mobile-desktop" id="enableDesktopSite">
+                    DESKTOP SITE
+                </div>
             </div>
         </div>
 
-        <div class="desktop-body">
+        <div class="desktop-body" id="desktop">
             <div class="notice" id="banner">
                 <img src="assets/images/close.png" id="notice-close">
                 <div class="notice-content">

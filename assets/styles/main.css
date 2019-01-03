@@ -8,8 +8,8 @@
 
 .navagation-logo
 {
-    font-family: roboto;
-
+    font-family: poppins;
+    
     color: white;
     font-size: 150%;
 }
@@ -53,7 +53,9 @@
 }
 .header-full
 {
-    font-size: 250%;
+    font-size: 230%;
+    font-family: poppins;
+    font-weight: 600;
 }
 .header-sub
 {
@@ -62,7 +64,7 @@
     margin-top: 1em;
 
     font-size: 90%;
-
+    
     padding-right: 5em;
 }
 .header-message
@@ -100,7 +102,7 @@
 }
 .notify-title
 {
-    color: rgb(3, 27, 78);
+    color: #031b4e;
     font-size: 120%;
     font-weight: 500;
 
@@ -151,9 +153,9 @@
 
 .project-title
 {
-    color: #031B4E;
-    font-weight: 500;
-    font-family: roboto;
+    color: #031b4e;
+    font-weight: 400;
+    font-family: poppins;
     font-size: 150%;
 
     text-align: center;
@@ -268,7 +270,7 @@
 
     border-radius: 7px;
 
-    color: white;
+    color: #031b4e;
     font-family: roboto;
     font-size: 90%;
 }
