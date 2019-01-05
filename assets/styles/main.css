@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
 
-    padding: 2em;
+    padding: 2%;
 }
 
 .navagation-logo
@@ -23,17 +23,17 @@
 
     color: white;
 
-    margin-left: 1em;
+    margin-left: 1%;
 }
 
 .navagation-image
 {
-    margin-left: 2em;
+    margin-left: 2%;
 
     height: 1.5em;
     width: 1.5em;
 
-    margin-right: .7em;
+    margin-right: 1%;
 }
 
 .header
@@ -41,47 +41,52 @@
     font-family: roboto;
     color: white;
 
-    margin-top: 5em;
+    margin-top: 7%;
 
-    padding-bottom: 5em;
+    padding-bottom: 5%;
 
     display: flex;
 }
 .header-message
 {
-    margin-left: 3em;
+    margin-left: 7%;
 }
 .header-full
 {
-    font-size: 230%;
+    font-size: 250%;
     font-family: poppins;
     font-weight: 600;
+
+    overflow-wrap: break-word;
+
+    width: 60%;
 }
 .header-sub
 {
     font-weight: 300;
+    font-size: 110%;
 
-    margin-top: 1em;
-
-    font-size: 90%;
+    margin-top: 1%;
     
-    padding-right: 5em;
+    padding-right: 5%;
+
+    overflow-wrap: break-word;
+
+    width: 50%;
 }
 .header-message
 {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     
     flex-grow: 1;
 
-    padding: 3em;
-
-    width: 5em;
+    padding: 3%;
 }
 .header-notify
 {
     margin-left: auto;
-    margin-right: 10em;
+    margin-right: 10%;
 }
 
 #linkLeft
@@ -98,7 +103,7 @@
 {
     box-sizing: border-box;
 
-    padding: 2em 0 2em 5em;
+    padding: 2% 0 2% 5%;
 }
 .notify-title
 {
@@ -107,8 +112,6 @@
     font-weight: 500;
 
     display: inline-block;
-
-    padding: .5em 5em .5em 5em;
 }
 .notifyWrapper
 {
@@ -118,7 +121,7 @@
 
     display: inline-block;
 
-    padding-bottom: 1em;
+    padding: 10%;
 }
 
 #joininput
