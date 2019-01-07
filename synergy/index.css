@@ -2,7 +2,7 @@
 {
     text-align: left;
     font-family: roboto;
-    font-size: 200%; 
+    font-size: 250%; 
     padding-top:1em;
     padding-left:1em;
 }
@@ -65,4 +65,14 @@ margin-left:3em;
 {
 display:flex;
 align-items: center;
+
+}
+.box-title 
+{
+background-color: whitesmoke;
+width:100%;
+padding-bottom: 14em;
+padding-right: 4em;
+margin: 0 10em 0 10em;
+
 }
