@@ -36,59 +36,6 @@
     margin-right: 1%;
 }
 
-.header
-{
-    font-family: roboto;
-    color: white;
-
-    margin-top: 7%;
-
-    padding-bottom: 5%;
-
-    display: flex;
-}
-.header-message
-{
-    margin-left: 7%;
-}
-.header-full
-{
-    font-size: 250%;
-    font-family: poppins;
-    font-weight: 600;
-
-    overflow-wrap: break-word;
-
-    width: 60%;
-}
-.header-sub
-{
-    font-weight: 300;
-    font-size: 110%;
-
-    margin-top: 1%;
-    
-    padding-right: 5%;
-
-    overflow-wrap: break-word;
-
-    width: 50%;
-}
-.header-message
-{
-    display: inline-flex;
-    flex-direction: column;
-    
-    flex-grow: 1;
-
-    padding: 3%;
-}
-.header-notify
-{
-    margin-left: auto;
-    margin-right: 10%;
-}
-
 #linkLeft
 {
     margin-left: auto;
@@ -97,31 +44,6 @@
 #section1
 {
     background-image: linear-gradient(to bottom right, #044CC2, #031B4E);
-}
-
-.header-notify
-{
-    box-sizing: border-box;
-
-    padding: 2% 0 2% 5%;
-}
-.notify-title
-{
-    color: #031b4e;
-    font-size: 120%;
-    font-weight: 500;
-
-    display: inline-block;
-}
-.notifyWrapper
-{
-    background-color: white;
-
-    border-radius: .5em;
-
-    display: inline-block;
-
-    padding: 10%;
 }
 
 #joininput
@@ -159,7 +81,7 @@
     color: #031b4e;
     font-weight: 400;
     font-family: poppins;
-    font-size: 150%;
+    font-size: 180%;
 
     text-align: center;
 
