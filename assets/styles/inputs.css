@@ -14,6 +14,8 @@
     font-size: 110%;
 
     transition: all .1s ease-out;
+
+    outline: none;
 }
 .input:hover
 {

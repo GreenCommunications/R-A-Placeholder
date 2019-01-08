@@ -25,25 +25,6 @@
         <link href="assets/mobile/m-main.css" rel="stylesheet" media="screen and (max-width: 800px)">
     </head>
     <body>
-        <div class="mobile-body" id="mobile">
-            <div class="mobile-nav">
-                <img class="mobile-nav-logo" src="assets/images/logo.png">
-            </div>
-            
-            <div class="mobile-content">
-                <div class="mobile-heading">
-                    Our Appologies,
-                </div>
-                <div class="mobile-paragraph">
-                    Our site is currently not optimized for mobile; This process will begin after our desktop site is complete. To see our progress,
-                    open this page on your desktop, or click the button below.
-                </div>
-                <div class="mobile-desktop" id="enableDesktopSite">
-                    DESKTOP SITE
-                </div>
-            </div>
-        </div>
-
         <div class="desktop-body" id="desktop">
             <div class="notice" id="banner">
                 <img src="assets/images/close.png" id="notice-close">
@@ -59,10 +40,11 @@
             <div class="section" id="section1">
                 <div class="navagation">
                     <img src="assets/images/logo.png" class="navagation-image">
-                    <div class="navagation-logo">Syncronosys |</div>
+                    <div class="navagation-logo">syncronosys |</div>
                     <div class="navagation-logo-span">For the Future</div>
-                    <a href="fusion/" id="linkLeft">Fusion</a>
-                    <a href="synergy/">Synergy</a>
+                    <a href="fusion/" id="linkLeft" class="a">Fusion</a>
+                    <a href="synergy/" class="a">Synergy</a>
+                    <img src="assets/images/menu.png" class="mobile-menu">
                 </div>
 
                 <div class="header">
@@ -149,6 +131,28 @@
                             <p class="highlights-info"> Synergy is a cheap, reliable, and energy efficient vehicle for the modern world</p>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="sitemap">
+                <div class="sitemap-linkrow-wrapper">
+                    <div class="linkstack">
+                        <div class="linkstack-logo">
+                            <img class="sitemap-logo" src="assets/images/logo.png">
+                            <span class="sitemap-logo-span">syncronosys</span>
+                        </div>
+                        <div class="sitemap-linkrow-heading">
+                            Projects
+                        </div>
+                        <div class="sitemap-linkrow-links">
+                            <div onclick="window.open('/fusion', '_self');" class="sitemap-link">Fusion</div>
+                            <div onclick="window.open('/synergy', '_self');" class="sitemap-link">Synergy</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sitemap-copyright">
+                        &copy;2019 Syncronosys
                 </div>
             </div>
         </div>

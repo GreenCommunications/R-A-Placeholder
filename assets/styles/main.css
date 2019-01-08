@@ -92,7 +92,7 @@
 {
     display: flex;
 
-    padding: 2em 10em 2em 10em;
+    padding: 2% 10% 2% 10%;
 
     align-items: center;
 }
@@ -216,6 +216,104 @@
 }
 
 .mobile-body
+{
+    display: none;
+}
+
+.sitemap
+{
+    background-color: #010e28;
+
+    padding: 2%;
+}
+
+.sitemap-logo
+{
+    opacity: .5;
+    width: 10%;
+    height: 10%;
+}
+.sitemap-logo-span
+{
+    color: white;
+    font-family: poppins;
+    font-size: 110%;
+    font-weight: 300;
+
+    opacity: .5;
+
+    margin-left: 5%;
+}
+.linkstack-logo
+{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20%;
+}
+
+.linkstack
+{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.sitemap-link
+{
+    opacity: .5;
+
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+
+    margin-bottom: 30%;
+
+    display: inline-flex;
+
+    cursor: pointer;
+
+    transition: all .2s ease-out;
+}
+.sitemap-link:hover
+{
+    opacity: .3;
+}
+
+.sitemap-copyright
+{
+    margin-top: 3%;
+
+    opacity: .5;
+
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 90%;
+
+    text-align: center;
+}
+
+.sitemap-linkrow-heading
+{
+    color: white;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 120%;
+}
+
+.sitemap-linkrow-links
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-left: 5%;
+
+    margin-top: 5%;
+}
+
+.mobile-menu
 {
     display: none;
 }
