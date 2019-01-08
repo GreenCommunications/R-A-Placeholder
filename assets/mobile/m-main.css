@@ -62,3 +62,14 @@
 {
     display: none;
 }
+
+.project-contentWrapper
+{
+    padding-bottom: 10%;
+}
+
+.navagation-image
+{
+    width: 8%;
+    height: 8%;
+}
