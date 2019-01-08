@@ -168,6 +168,8 @@
     overflow: hidden;
 
     width: 100%;
+
+    z-index: 1;
 }
 .notice-content
 {
@@ -315,5 +317,11 @@
 
 .mobile-menu
 {
+    display: none;
+}
+
+#mobile-sitemap
+{
+    visibility: hidden;
     display: none;
 }

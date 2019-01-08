@@ -12,12 +12,14 @@
 {
     display: inline-flex;
 
-    width: 10%;
-    height: 10%;
+    width: 2em;
+    height: 2em;
 
     margin-left: auto;
 
     cursor: pointer;
+
+    opacity: .5;
 }
 
 .a
@@ -70,6 +72,142 @@
 
 .navagation-image
 {
-    width: 8%;
-    height: 8%;
+    width: 2em;
+    height: 2em;
+}
+
+#mobile-sitemap
+{
+    display: block;
+
+    visibility: hidden;
+    
+    position: absolute;
+    top: 10%;
+
+    padding: 4%;
+
+    box-sizing: border-box;
+
+    width: 92%;
+
+    opacity: 0;
+}
+
+.mobile-sitemapwrapper
+{
+    width: 100%;
+
+    background-color: white;
+
+    border-radius: 5px;
+
+    padding: 1em;
+}
+
+.mobile-map-link
+{
+    display: inline-flex;
+    align-items: center;
+
+    font-family: poppins;
+    color: #031B4E;
+    font-weight: 500;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile-map-icon
+{
+    height: 25px;
+    width: 25px;
+
+    margin-right: .5em;
+}
+
+.mobile-map-label
+{
+    display: inline-flex;
+}
+
+#m-toplink
+{
+    margin-top: 1em;
+}
+
+.mobile-sitemap-close
+{
+    display: block;
+
+    margin-left: auto;
+    margin-bottom: .5em;
+}
+
+@keyframes aniIn
+{
+    from
+    {
+        transform: scale(.80);
+
+        opacity: 0;
+
+        visibility: hidden;
+
+        right: 1%;
+    }
+
+    to
+    {
+        transform: scale(1);
+
+        opacity: 1;
+
+        visibility: visible;
+
+        right: 8%;
+    }
+}
+.aniIn
+{
+    visibility: visible;
+
+    animation-name: aniIn;
+    animation-duration: .2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes aniOut
+{
+    from
+    {
+        transform: scale(1);
+
+        opacity: 1;
+
+        visibility: visible;
+
+        right: 8%;
+    }
+
+    to
+    {
+        transform: scale(.80);
+
+        opacity: 0;
+
+        visibility: hidden;
+
+        right: 1%;
+    }
+}
+.aniOut
+{
+    animation-name: aniOut;
+
+    animation-duration: .2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }

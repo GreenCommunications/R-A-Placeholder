@@ -28,4 +28,11 @@ window.onload = () =>
             document.getElementById("submitButton").style.backgroundColor = "#0069ff";
         }
     });
+
+    document.getElementById("mm").addEventListener("click", () =>{
+        document.getElementById("mobile-sitemap").className = "aniIn";
+    });
+    document.getElementById("mmc").addEventListener("click", () =>{
+        document.getElementById("mobile-sitemap").className = "aniOut";
+    });
 }

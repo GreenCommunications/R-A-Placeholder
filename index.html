@@ -25,7 +25,7 @@
         <link href="assets/mobile/m-main.css" rel="stylesheet" media="screen and (max-width: 800px)">
     </head>
     <body>
-        <div class="desktop-body" id="desktop">
+        <div class="desktop-body">
             <div class="notice" id="banner">
                 <img src="assets/images/close.png" id="notice-close">
                 <div class="notice-content">
@@ -37,6 +37,24 @@
                     </div>
                 </div>
             </div>
+            <div id="mobile-sitemap">
+                <div class="mobile-sitemapwrapper">
+                    <img class="mobile-sitemap-close" src="assets/images/m-menuicons/close.png" id="mmc">
+                    <div class="mobile-map-link" onclick="window.open('/fusion', '_self')">
+                        <img class="mobile-map-icon" src="assets/images/m-menuicons/fusion.png">
+                        <div class="mobile-map-label">
+                            Project Fusion
+                        </div>
+                    </div><br>
+
+                    <div class="mobile-map-link" id="m-toplink" onclick="window.open('/synergy', '_self')">
+                        <img class="mobile-map-icon" src="assets/images/m-menuicons/synergy.png">
+                        <div class="mobile-map-label">
+                            Project Synergy
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="section" id="section1">
                 <div class="navagation">
                     <img src="assets/images/logo.png" class="navagation-image">
@@ -44,7 +62,7 @@
                     <div class="navagation-logo-span">For the Future</div>
                     <a href="fusion/" id="linkLeft" class="a">Fusion</a>
                     <a href="synergy/" class="a">Synergy</a>
-                    <img src="assets/images/menu.png" class="mobile-menu">
+                    <img src="assets/images/menu.png" class="mobile-menu" id="mm">
                 </div>
 
                 <div class="header">
