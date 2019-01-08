@@ -327,3 +327,20 @@
     visibility: hidden;
     display: none;
 }
+
+.pill
+{
+    background-color: #00d7d2;
+
+    padding: .2em .5em .2em .5em;
+
+    border-radius: 7px;
+
+    color: #031b4e;
+    font-family: roboto;
+    font-size: 8pt;
+
+    margin-left: .5em;
+
+    display: inline-flex;
+}
