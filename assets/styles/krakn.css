@@ -1,4 +1,72 @@
 .krakn
 {
     background-color: rgb(25, 25, 25);
+
+    padding: 5%;
+}
+
+.krakn-logo
+{
+    width: 2.5em;
+    height: 2.5em;
+
+    margin-left: auto;
+}
+
+.krakn-header
+{
+    display: flex;
+    align-items: center;
+}
+
+.krakn-span
+{
+    font-family: bariol;
+    color: #673AB7;
+    font-size: 200%;
+
+    display: inline-flex;
+
+    margin-left: 2%;
+}
+
+.krakn-desc
+{
+    font-family: roboto;
+    color: rgba(255, 255, 255, 0.3);
+
+    margin-top: 2%;
+
+    text-align: center;
+}
+
+.krakn-disclaimer
+{
+    font-family: poppins;
+    font-size: 150%;
+    color: rgba(255, 255, 255, 0.3);
+
+    text-align: center;
+
+    margin-top: 3%;
+}
+
+.krakn-pill
+{
+    background-color: #673AB7;
+
+    padding: .2em .5em .2em .5em;
+
+    border-radius: 7px;
+
+    color: rgb(25, 25, 25);
+    font-family: roboto;
+    font-size: 11pt;
+
+    margin-left: .5em;
+
+    display: inline-flex;
+
+    margin-left: 2%;
+    margin-right: auto;
 }

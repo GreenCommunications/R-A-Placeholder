@@ -49,6 +49,12 @@
     font-weight: 600;
 }
 
+@font-face
+{
+    font-family: "bariol";
+    src: url(../fonts/bariol/Bariol_Regular.otf);
+}
+
 a:link
 {
     color: white;
