@@ -46,9 +46,15 @@
     font-size: 150%;
     color: rgba(255, 255, 255, 0.3);
 
-    text-align: center;
+    margin: 3% auto 0 auto;
 
-    margin-top: 3%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    padding: 1% 2% 1% 2%;
+
+    display: table;
+
+    border-radius: 3px;
 }
 
 .krakn-pill
