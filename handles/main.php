@@ -1,7 +1,7 @@
 <?php
 $action = $_GET["action"]; # Grab action from "get" list
 
-function throwError(message) # Error function; prints json output to client params: message>
+function throwError($message) # Error function; prints json output to client params: message>
 {
     print(json_encode(array("type"=>"error", "message"=>$message))); # Do the printing 
 }
@@ -26,13 +26,15 @@ function getRealIpAddr()
 switch($action)
 {
     case "addEmailToList":
-        $dataFile = fopen("joined.json", "r+") or die throwError("unable_fopen");
-        $setData = json_decode(fread($dataFile, filesize("joined.json")));
+	$dir = dirname(__FILE__) . "/../../usrstore/joined.json";
+        $dataFile = fopen($dir, "r") or throwError("unable_fopen");
+        $setData = json_decode(fread($dataFile, filesize($dir)), true);
+        fclose($dataFile);
 
         $duplicate = false;
-        foreach($setData as $data => $key)
+        foreach($setData as $value)
         {
-            if(getRealIpAddr() == $data)
+            if(getRealIpAddr() == $value["IP"])
             {
                 $duplicate = true;
             }
@@ -40,21 +42,23 @@ switch($action)
 
         if(!$duplicate)
         {
+            $dataFile = fopen($dir, "w") or throwError("unable_fopen");
+            
             $setData[sizeof($setData) + 1] = array("IP"=>getRealIpAddr(), "email"=>$_POST["email_addr"], "name"=>$_POST["name"]);
             
             fwrite($dataFile, json_encode($setData, true));
             fclose($dataFile);
+
+            print(json_encode(array("type" => "value", "value" => "done")));
         }
         else
         {
             throwError("duplicate");
-
-            fclose($dataFile);
         }
 
         break;
-    case default:
-        error("inval_opr");    
+    default:
+        throwError("inval_opr");    
 
         break;
 }
